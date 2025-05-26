@@ -2,14 +2,11 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SOLO Editors - วิดีโอตัดต่อมืออาชีพ</title>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;600&display=swap" rel="stylesheet">
   <style>
-    html {
-      scroll-behavior: smooth;
-    }
     body {
       margin: 0;
       font-family: 'Prompt', sans-serif;
@@ -18,9 +15,8 @@
     }
     header {
       background-color: #000000;
-      padding: 2rem 1rem;
+      padding: 2rem;
       text-align: center;
-      animation: fadeIn 1.5s ease-in-out;
     }
     header h1 {
       font-size: 2.5rem;
@@ -30,22 +26,17 @@
       text-align: center;
       padding: 1rem;
       background-color: #1a1a1a;
-      position: sticky;
-      top: 0;
-      z-index: 100;
     }
     nav a {
-      margin: 0 0.5rem;
+      margin: 0 1rem;
       color: #ffcc00;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1rem;
     }
     section {
-      padding: 3rem 1rem;
+      padding: 4rem 2rem;
       max-width: 960px;
       margin: auto;
-      animation: fadeInUp 1s ease-in-out;
     }
     .video-container {
       position: relative;
@@ -68,7 +59,7 @@
     }
     footer {
       text-align: center;
-      padding: 2rem 1rem;
+      padding: 2rem;
       background-color: #111;
       font-size: 0.9rem;
       color: #777;
@@ -76,35 +67,6 @@
     .contact a {
       color: #ffcc00;
       text-decoration: none;
-    }
-    @keyframes fadeIn {
-      0% { opacity: 0; }
-      100% { opacity: 1; }
-    }
-    @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Responsive tweaks */
-    @media (max-width: 768px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      nav a {
-        display: inline-block;
-        margin: 0.3rem 0.5rem;
-        font-size: 0.95rem;
-      }
-      section {
-        padding: 2rem 1rem;
-      }
     }
   </style>
 </head>
@@ -124,7 +86,7 @@
   <section id="reel">
     <h2>🎬 Demo Reel</h2>
     <div class="video-container">
-      <iframe src="https://www.youtube.com/embed/0gaVx_0C13c" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
     </div>
   </section>
 
@@ -159,8 +121,8 @@
   <section id="contact">
     <h2>📞 ติดต่อ</h2>
     <p class="contact">
-      Email: <a href="mailto:soloeditors@gmail.com">soloeditors@gmail.com</a><br />
-      Line: @soloeditors<br />
+      Email: <a href="mailto:soloeditors@gmail.com">soloeditors@gmail.com</a><br>
+      Line: @soloeditors<br>
       IG: <a href="https://instagram.com/solo.editors" target="_blank">@solo.editors</a>
     </p>
   </section>
